@@ -1,0 +1,368 @@
+body
+{
+    background: url("imgs/su71.jpg");
+    height: 1200px;
+}
+#body
+{
+    width: 987px;
+    height: 1100px;
+    /*background-color:yellow ;*/
+    margin-left: 300px;
+}
+#lead
+{
+    width: 987px;
+    height: 68px;
+    border: 2px solid white;
+    background-image: url("imgs/topbar.png");
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    float: left;
+}
+#list
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 987px;
+    height: 39px;
+    background-color: orange;
+    float: left;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+#list ul li
+{
+    margin-top: 0px;
+    display: inline;
+    float: left;
+}
+#list li a:link, #list li a:visited, #list li a:hover
+{
+    display:block;
+    padding:10px 20px;
+    margin-top: -16px;
+    margin-left: -10px;
+    color:#FFFFFF;
+    background-color:orange;
+    border: none;
+    text-decoration: none;
+    float: left;
+
+}
+#list li a:hover
+{
+    background-color: brown;
+}
+
+#search1
+{
+    width: 300px;
+    height: 39px;
+    background-color: orange;
+    float: left;
+    margin-top: -16px;
+    margin-left: 191px;
+}
+#search1 input
+{
+    border-radius: 5px;
+}
+/*---------图片滚动--*/
+#pictruelist
+{
+    border: 2px solid white;
+    width: 985px;
+    height: 299 px;
+    margin-bottom: 2px;
+    float: left;
+
+    margin-bottom: 10px;
+
+}
+#pictruelead
+{
+    height: 54px;
+    width: 983px;
+    opacity: 0.8;
+    background-color: black;
+    margin-top: -57px;
+
+}
+#pictruelead ul li
+{
+    display: inline;
+}
+#pictruelead ul
+{
+    margin-top: 0px;
+    margin-left: 750px;
+}
+/*--------------电影新闻-----------*/
+#tuijian
+{
+    width: 983px;
+    height: 451px;
+    border: 2px solid white;
+    float: left;
+    margin-bottom: 10px;
+}
+#news
+{
+    width: 475px;
+    height: 450px;
+    background-color: coral;
+    float: left;
+
+
+
+}
+#news h1
+{
+    color: white;
+    margin-left: 10px;
+    float: left;
+}
+#news #p1
+{
+    display: block;
+    float: left;
+    color: gray;
+    margin-top: 35px;
+    font-size: 16pt;
+    margin-left: 30px;
+}
+#a1{ border: 3px solid yellow}
+
+#newsintro
+{
+    width: 450px;
+    height: 350px;
+    margin-left: 13px;
+    word-wrap:break-word;
+    background-color: yellow;
+    overflow:auto;
+    border-radius: 20px;
+
+
+}
+#wenzi
+ {
+     width: 157px;
+     height: 374px;
+     margin-left: 5px;
+     background-color: antiquewhite;
+     float: left;
+    position: relative;
+ }
+#newsintrop1
+{
+    display: block;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 12pt;
+    margin-left: 10px;
+}
+#newsintro a
+{
+    text-decoration: none;
+    color: limegreen;
+    font-size: 12pt;
+}
+#newsintro a:hover
+{
+    color: red;
+}
+#watch
+{
+    width: 503px;
+    height: 85px;
+    margin-left: 5px;
+    background-color: coral;
+    float: left;
+}
+#watch h1
+{
+    color: gray;
+    margin-left: 10px;
+    float: left;
+}
+#watch a
+{
+    color: white;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    top: 50px;
+}
+#watch a:hover
+{
+    color: aqua;
+}
+#watch #name
+{
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    float: left;
+    margin-left: 20px;
+}
+#watching
+{
+    width: 503px;
+    height: 364px;
+    margin-left: 5px;
+    margin-top: 2px;
+    background-color: coral;
+    float: left;
+}
+#yingping
+{
+    width: 450px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    overflow: auto;
+}
+#yingping1, #yingping2, #yingping3, #yingping4, #yingping5
+{
+    width: 330px;
+    height: 60px;
+    float: left;
+    /*background-color: white;*/
+    margin-left: 20px;
+    margin-top: 10px;
+    border-left: 10px solid gray;
+    border-right: 1px dashed white;
+    border-bottom: 1px dashed white;
+    border-top: 1px dashed white;
+    overflow: auto;
+}
+#yingping1 p, #yingping2 p, #yingping3 p, #yingping4 p, #yingping5 p
+{
+    font-size: 8pt;
+    float: left;
+}
+#yingping a
+{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    float: left;
+}
+/*---------------------一个大的清单---------------*/
+#alllist
+{
+    margin-top: 10px;
+    width: 983px;
+    height: 200px;
+    margin-top: 3px;
+    border: 2px solid white;
+    background-color: brown;
+    float: left;
+}
+#last
+{
+    width: 983px;
+    height: 50px;
+    background-color: brown;
+    float: left;
+    border: 2px solid white;
+    margin-top: 2px;
+}
+#comunicate
+{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+#comunicate form p ,a
+{
+    color: white;
+    font-family: Arial,Helvetica,sans-serif,SimSun;
+    font-size: 10pt;
+
+}
+#comunicate a:hover
+{
+    color: aqua;
+}
+#comunicate input,button
+{
+    border-radius: 5px;
+}
+#alllist #alllist1,#alllist #alllist2,#alllist #alllist3,#alllist #alllist4
+{
+    width: 190px;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+#alllist #b1,#alllist #b2,#alllist #b3,#alllist #b4
+{
+    background-color: orange;
+    width: 100px;
+    height: 20px;
+    margin-top:-10px;border-radius: 10px;
+    color: white;
+    text-align: center;
+
+}
+#alllist #c1,#alllist #c2,#alllist #c3
+{
+    width: 190px;
+    height: 120px;
+    margin-top: 5px;
+    background-color: orange;
+    word-wrap:break-word;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+#alllist  #number
+{
+    color: white;
+    font-size: 60px;
+    font-family: arial,helvetica,sans-serif;
+    float: left;
+}
+#alllist #c1 #divproduce1,#alllist #c2 #divproduce1,#alllist #c3 #divproduce1
+{
+    height: 80px;
+    width: 200px;
+    float: left;
+    border-bottom: 1px solid white;
+}
+#alllist #href1
+{
+    position: relative;
+    top:10px;
+    float: left;
+}
+#alllist #c1 a,#alllist #c2 a,#alllist #c3 a
+{
+    font-size: 12pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+#alllist #href1-1
+{
+    float: left;
+    color: white;
+}
+#alllist #divproduce1pic
+{
+    width: 115px;
+    height: 80px;
+    float: left;
+    margin-left: 5px;
+    border: 1px solid white;
+}

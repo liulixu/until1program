@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="auther" content="liulixu">
+    <title>电影也疯狂</title>
+</head>
+<link href="css.css" rel="stylesheet">
+<script src="js.js"></script>
+<body >
+<div id="body">
+    <div id="lead"></div>
+    <div id="list">
+        <ul>
+            <li><strong><a href="#">首页</a></strong></li>
+            <li><strong><a href="#">新闻</a></strong></li>
+            <li><strong><a href="#"> 预告片</a></strong></li>
+            <li><strong><a href="#" >影评</a></strong></li>
+            <li><strong><a href="#"> 资料库</a></strong></li>
+            <li><strong><a href="#"> 关于我们</a></strong></li>
+        </ul>
+        <div id="search1">
+            <input type="email" value="昵称/邮箱"style="width: 90px;margin-left: 5px;margin-top: 10px">
+            <input style="width: 80px" type="password">
+            <input type="button" value="登录">
+            <input type="button" value="注册">
+        </div>
+    </div>
+    <div id="pictruelist">
+        <img id="obj" src="imgs/renzaijiongtu.jpg" alt="">
+        <div id="pictruelead">
+            <ul>
+                <li><img src="imgs/renzaijiongtuxiao.jpg" id="a1"style="width: 50px;height: 50px;border: 2px solid blue"" onclick="f1()"></li>
+                <li><img src="imgs/wangdeshengyanxiao.jpg" id="a2" style="width: 50px;height: 50px;border: 2px solid blue" onclick="f2()"></li>
+                <li><img src="imgs/shaonianpaixiao.jpg" id="a3" style="width: 50px;height: 50px;border: 2px solid blue" onclick="f3()"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="tuijian" >
+        <div id="news">
+            <h1>佳片有约</h1>
+            <p id="p1"><strong><i>movie show & introduce</i></strong></p>
+            <hr style="width: 450px">
+            <div id="newsintro">
+                <img src="imgs/shaonianban.jpg" style="float: left">
+                <div id="wenzi">
+                    <p id="newsintrop1">电影名：少年班</p>
+                    <p id="newsintrop1">上映时间：2015年6月19日</p>
+                    <p id="newsintrop1">主演：<a href="#">孙红雷</a>、<a href="#">周冬雨</a>、<a href="#">董子健</a>、<a href="#">王栎鑫</a>、<a href="#">李佳奇</a></p>
+                    <p style="font-size: 8pt ;margin-bottom: 0px">（点击查看演员详情！）</p>
+                    <p id="newsintrop1">简介：1998年，来自西安交通大学的“少年班”导师周知庸（孙红雷饰），前往全国各处寻找智商超群或者能力非凡的天才少年，最终被选出的22个少年将被赋予艰巨的使命。</p>
+                    <p ><a href="#" style="margin-left: 10px">点击购票>>></a> </p>
+                </div>
+                <div id="wenzi">
+                    <p id="newsintrop1">电影名：复仇者联盟2</p>
+                    <p id="newsintrop1">上映时间：2015年5月1日北美</p>
+                    <p id="newsintrop1">主演：<a href="#">小罗伯特.唐尼</a>、<a href="#">克里斯·埃文斯</a>、<a href="#">克里斯·海姆斯沃斯</a>、<a href="#">马克·鲁法洛</a></p>
+                    <p style="font-size: 8pt ;margin-bottom: 0px">（点击查看演员详情！）</p>
+                    <p id="newsintrop1">简介：身经百战的超级英雄们产生了职业倦怠，已经卸下钢铁战甲的托尼·斯塔克因此发明了“奥创”——有自我意识和学习能力的人工机器人。</p>
+                    <p ><a href="#" style="margin-left: 10px">点击购票>>></a> </p>
+                </div>
+                <img src="imgs/fuchou.jpg" style="margin-left: 3px">
+                <img src="imgs/jiehunba.jpg" style="width: 262px;height:374px;float: left;margin-left: 5px">
+                <div id="wenzi">
+                    <p id="newsintrop1">电影名：咱们结婚吧</p>
+                    <p id="newsintrop1">上映时间：</p>
+                    <p id="newsintrop1">2015年4月2日全国</p>
+                    <p id="newsintrop1">主演：<a href="#">高圆圆</a>、<a href="#">姜武</a>、<a href="#">李晨</a>、<a href="#">郑凯</a>、<a href="#">陈意涵</a>、<a href="#">郭碧婷</a>、<a href="#">刘涛</a>、<a href="#">王自健</a></p>
+                    <p style="font-size: 8pt ;margin-bottom: 0px">（点击查看演员详情！）</p>
+                    <p id="newsintrop1">简介：</p>
+                    <p id="newsintrop1">影片讲述了四对即将举行婚礼的情侣距离婚前结婚一周时间，因为婚前恐惧发生的各种冲突、逆转。让我们相信爱情。</p>
+                    <p ><a href="#" style="margin-left: 10px">点击购票>>></a> </p>
+                </div>
+
+            </div>
+        </div>
+        <div id="watch">
+            <h1>精彩影片抢先看</h1>
+            <p id="name">————超能陆战队</p>
+            <p><a href="#">更多预告片>></a></p>
+        </div>
+        <div id="watching">
+            <video src="video/chaoneng.mp4" width="450px" height="198px" controls="controls" style="margin-left: 20px;margin-top: 10px;float: left"></video>
+            <div id="yingping">
+                <img src="imgs/touxiang1.jpg" width="30px" height="30px" style="margin-left: 20px;margin-top: 10px;float: left">
+                <div id="yingping1"style="height: 60px">
+                    <p>萌萌哒大白，太有爱了。我也想有一个！</p><br>
+                    <p align="left">2015-6-2&nbsp;&nbsp;</p><a href="#">❤189</a>
+                </div>
+                <img src="imgs/touxiang2.jpg" width="30px" height="30px" style="margin-left: 20px;margin-top: 10px;float: left">
+                <div id="yingping2" style="height: 160px">
+                    <p>《超能陆战队》是近期看的最赞的电影。这似乎也是公认的，接收到的反馈中，充满了七十二般变化的赞美，现出原形，就是一个字：好。 起初有抗拒，因为作为一枚文艺癌，对坚硬的、工业化气质的标题，一直有隐隐的排斥，比如变形金刚、钢铁侠，到现在都没打开过。虽然俺们村里人都说好。 前天晚上失眠，滚来滚去睡不着，心想，与其与床单作战，不如找个嗨爆了的电影来调.........</p>
+                    <p align="left">2015-5-27&nbsp;&nbsp;</p><a href="#">❤3023</a>
+                </div>
+                <img src="imgs/touxiang3.jpg" width="30px" height="30px" style="margin-left: 20px;margin-top: 10px;float: left">
+                <div id="yingping3" style="height: 90px">
+                    <p>“白胖子”的面部设计让人想起一种日本传统风铃，导演Don Hall在拜访日本的寺庙时汲取了灵感。</p>
+                    <p align="left">2015-5-25&nbsp;&nbsp;</p><a href="#">❤1221</a>
+                </div>
+                <img src="imgs/touxiang4.jpg" width="30px" height="30px" style="margin-left: 20px;margin-top: 10px;float: left">
+                <div id="yingping4"style="height: 110px">
+                    <p>如果说有一只眼能让我们理解《超能陆战队》所有走心之处的话，那这只眼就是Baymax与他的发明者Tadashi实际上是同一个人。</p>
+                    <p align="left">2015-5-4&nbsp;&nbsp;</p><a href="#">❤2311</a>
+                </div>
+                <img src="imgs/touxiang5.jpg" width="30px" height="30px" style="margin-left: 20px;margin-top: 10px;float: left">
+                <div id="yingping5" style="height: 140px">
+                    <p>看了大白各种萌的GIF和图片，但影片上映还要再等一个月！近期无意中找到了大白的前传漫画。这本漫画不是《超能陆战队》灵感来源的1998版漫威漫画，而是根据电影，邀请日本漫画家上野春生特别创作的前传漫画，交代了男主人公小宏和哥哥之间的故事，以及大白的诞生。 </p>
+                    <p align="left">2015-5-1&nbsp;&nbsp;</p><a href="#">❤12</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="alllist">
+        <div id="comunicate" >
+            <form>
+            <p style="margin-bottom: 0px;margin-top: 0px">电影太少？搜一下！</p>
+            <input type="text" value="在此输入类型">
+            <input type="text" value="在此输入上映时间">
+            <input type="text" value="在此输入电影名">
+            <button type="post" value="post">搜索</button>
+            <button type="reset" value="reset">重置</button>
+            <p>找不到？call我们！<a href="">028-8888>></a></p></form>
+        </div>
+        <div id="alllist1">
+            <div id="b1" onclick="f11()"><p>爱情片</p></div>
+            <div id="c1">
+                <span id="number">1</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">2015年最受欢迎爱情电影</a>
+                    <p id="href1-1">咱们结婚吧引导结婚狂潮</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/123.jpg" width="115px" height="80px">
+                </div>
+                <span id="number">2</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">范爷主演，青春题材</a>
+                    <p id="href1-1">万物生长，干柴遇上烈火，Duang!</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/wanwu.jpg" width="115px" height="80px">
+                </div>
+                <span id="number">3</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">小沈阳，田亮搞笑爱情</a>
+                    <p id="href1-1">将错就错，一段奇葩的爱情大历险，你还在等什么?</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/jiangcuojiucuo.jpg" width="115px" height="80px">
+                </div>
+            </div>
+        </div>
+        <div id="alllist2" onclick="f22()">
+            <div id="b2"><p>动作片</p></div>
+            <div id="c2">
+                <span id="number">1</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">硬汉王宝强Vs甄子丹</a>
+                    <p id="href1-1">一个人的武林，有人的地方就有江湖。</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/wuling.jpg" width="115px" height="80px">
+                </div>
+                <span id="number">2</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">吴京化身特种兵</a>
+                    <p id="href1-1">战狼，驻守边境的一只幽狼，热血，忠诚！</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/zhanlang.jpg" width="115px" height="80px">
+                </div>
+                <span id="number">3</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">JUST For 保罗。</a>
+                    <p id="href1-1">速7.忠肝义胆，神乎其技，热血男儿!</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/sudu7.jpg" width="115px" height="80px">
+                </div>
+            </div>
+        </div>
+        <div id="alllist3" onclick="f33()">
+            <div id="b3"><p>科幻片</p></div>
+            <div id="c3">
+                <span id="number">1</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">正义的联盟，漫威同名</a>
+                    <p id="href1-1">复仇者联盟2强势来袭，准备好了么 ？</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/fuchou2.jpg" width="115px" height="80px">
+                </div>
+                <span id="number">2</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">失落的恐龙帝国</a>
+                    <p id="href1-1">来自于蚊子的血液，唤醒绝迹几亿年的陆地主宰。</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/zhuluoji.jpg" width="115px" height="80px">
+                </div>
+                <span id="number">3</span>
+                <div id="divproduce1">
+                    <a href=""id="href1">来自于大自然的愤怒！</a>
+                    <p id="href1-1">2012，你是否还在为生存而奔波，赶快准备好一张船票吧。</p>
+                </div>
+                <div id="divproduce1pic">
+                    <img src="imgs/2012.jpg" width="115px" height="80px">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="last">
+        <p style="color: #FFFFFF;">电子科技大学成都学院 Copyright 2006-2016 omgmovies.com Inc. All rights reserved.
+            川ICP证123456号 网络视听许可证1234567号网络文化经营许可证广播电视节目制作经营许可证(川)字第1435号京公网安备：110105000744号
+        </p>
+    </div>
+</div>
+</body>
+</html>

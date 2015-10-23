@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    /*#div1*/
+    /*{*/
+        /*position:relative;*/
+        /*z-index: 1;*/
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*background-color: yellow;*/
+    /*}*/
+    #div2
+    {
+        /*position: absolute;*/
+        z-index: 2;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /*margin-top: -150px;*/
+        /*margin-left: -30px;*/
+        display: none;
+    }
+</style>
+<script>
+//    function f1()
+//    {
+//        var obj=document.getElementById("div2")
+//        obj.style.display="inline";
+//    }
+    var obj=document.getElementById("div2");
+    function  f()
+    {
+        var videoobj=document.getElementById("video");
+
+        if(videoobj.paused="true")
+        {
+
+            obj.style.display="inline";
+        }
+        else{obj.style.display="none";}
+    }
+    function f123()
+    {
+        var sum=document.getElementById("div3");
+        sum.value="aaaaa";
+    }
+    function f1()
+    {
+        textarea.style.height="200px";
+    }
+</script>
+<body>
+<!--<div align="center" style="position: relative">-->
+<!--<div id="div1"></div>-->
+<div id="div2"></div>
+<!--<input type="button" value="123"  onclick="f1()">-->
+    <!--<video width="300px" height="200px" controls="controls">-->
+        <!--<source src="video/chaoneng.mp4" type="video/mp4">-->
+    <!--</video>-->
+<!--</div>-->
+<video src="video/chaoneng.mp4" width="450px" height="300px" controls="controls" style="margin-left: 20px;" id="video" >
+
+</video>
+<div><p id="div3" onclick="f123()">123123123</p></div>
+<textarea id="textarea"style="height: 100px;">dsajdjadjasdjskadjaksjdlknWEWIFNWEFIOEWNWEFNEOIWREWLRNEWFINWRNEIWJRWENRdsajdjadjasdjskadjaksjdlknWEWIFNWEFIOEWNWEFNEOIWSADSADASDASDASDASDAS</textarea>
+<button type="button" value="post" onclick="f1()">post</button>
+</body>
+</html>
